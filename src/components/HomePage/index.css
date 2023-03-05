@@ -29,15 +29,16 @@
   max-width: 400px;
 }
 .banner-text {
-  color: #64748b;
-  font-size: 17px;
+  color: rgb(238, 232, 232);
+  font-size: 16px;
   font-weight: 500;
 }
 .banner-get-it-button {
-  color: #546070;
-  border: 1px solid #56606d;
+  color: #f875f4;
+  border: 1px solid #fa88f0;
   padding: 10px 20px;
   background-color: transparent;
+  border-radius: 7px;
   font-weight: 600;
   font-size: 16px;
   border-radius: 3px;
@@ -76,6 +77,10 @@
   background-color: transparent;
   flex-grow: 1;
   border-right: 0;
+  color: #c7d4e6;
+}
+.light-search {
+  color: #2d333a;
 }
 .search-btn-home {
   background-color: #dbeaf04f;
@@ -123,4 +128,16 @@
   outline: none;
   border-radius: 7px;
   cursor: pointer;
+}
+.loader-container {
+  width: 100%;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media screen and (max-width: 767px) {
+  .banner-website-logo {
+    height: 25px;
+  }
 }

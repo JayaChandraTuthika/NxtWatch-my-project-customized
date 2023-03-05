@@ -89,7 +89,7 @@ class Home extends Component {
     <BannerContainer className="banner-container" data-testid="banner">
       <div className="banner-text-container">
         <img
-          src="https://assets.ccbp.in/frontend/react-js/nxt-watch-logo-light-theme-img.png"
+          src="https://assets.ccbp.in/frontend/react-js/nxt-watch-logo-dark-theme-img.png"
           alt="nxt watch logo"
           className="banner-website-logo"
         />
@@ -224,7 +224,9 @@ class Home extends Component {
                     <div className="search-container">
                       <input
                         type="search"
-                        className="search-input-home"
+                        className={`search-input-home ${
+                          isDark ? '' : 'light-search'
+                        }`}
                         value={searchInput}
                         onChange={this.changeSearchInput}
                       />

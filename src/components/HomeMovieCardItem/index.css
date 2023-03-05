@@ -44,3 +44,22 @@
   margin: 0 5px;
   padding: 0;
 }
+
+@media screen and (max-width: 767px) {
+  .home-movie-card-list-item {
+    width: 150px;
+    margin-right: 15px;
+    margin-bottom: 10px;
+  }
+  .channel-image-home-movie-card {
+    height: 25px;
+    margin-right: 10px;
+  }
+  .home-movie-card-channel-name {
+    font-size: 8px;
+  }
+  .views-count-home-movie {
+    font-size: 7px;
+    margin-top: 0;
+  }
+}

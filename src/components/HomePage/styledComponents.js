@@ -9,10 +9,10 @@ export const HomeBackground = styled.div`
 `
 export const BannerContainer = styled.div`
   width: 100%;
-  background-image: url('https://assets.ccbp.in/frontend/react-js/nxt-watch-banner-bg.png');
+  background-image: url('https://promwad.com/sites/default/files/video_streaming_solutions_banner_1920px.jpg');
   padding: 25px 45px;
-  background-size: contain;
-  background-position: cover;
+  background-size: cover;
+
   background-position: right;
 
   display: flex;

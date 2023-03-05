@@ -5,10 +5,19 @@ export const SidebarContainer = styled.div`
   height: 100vh;
   max-width: 23%;
   min-width: 250px;
+
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   padding: 0;
+  @media screen and (max-width: 1000px) {
+    max-width: 19%;
+    min-width: 0;
+  }
+  @media screen and (max-width: 767px) {
+    max-width: 10%;
+    min-width: 0;
+  }
 `
 export const SidebarBottomContainer = styled.div`
   color: ${props => (props.isDark ? 'white' : '#475569')};

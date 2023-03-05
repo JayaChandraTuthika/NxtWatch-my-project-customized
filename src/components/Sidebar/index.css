@@ -40,3 +40,27 @@
   width: 25px;
   margin-right: 15px;
 }
+
+@media screen and (max-width: 1000px) {
+  .side-bar-option-text {
+    font-size: 15px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .side-bar-option-text {
+    display: none;
+  }
+  .sidebar-bottom-icons-container {
+    flex-direction: column;
+    align-items: center;
+  }
+  .sidebar-bottom-icons-container-icon {
+    margin-bottom: 10px;
+  }
+  .last-text-sidebar {
+    display: none;
+  }
+  .contact-us-text {
+    font-size: 10px;
+  }
+}

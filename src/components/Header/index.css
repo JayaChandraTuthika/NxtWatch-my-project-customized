@@ -70,3 +70,15 @@
   margin: 5px 15px;
   outline: none;
 }
+
+@media screen and (max-width: 767px) {
+  .nav-logo {
+    height: 25px;
+  }
+  .theme-image {
+    height: 30px;
+  }
+  .profile-icon {
+    height: 25px;
+  }
+}

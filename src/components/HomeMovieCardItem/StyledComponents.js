@@ -6,5 +6,8 @@ const MovieCardTitle = styled.p`
   margin-top: 0;
   margin-bottom: 10px;
   font-weight: 500;
+  @media screen and (max-width: 767px) {
+    font-size: 10px;
+  }
 `
 export default MovieCardTitle

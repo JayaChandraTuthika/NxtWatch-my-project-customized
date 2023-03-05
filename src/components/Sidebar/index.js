@@ -51,7 +51,7 @@ class Sidebar extends Component {
                         activeTab === 'HOME' ? 'active-icon' : 'inactive-icon'
                       }
                     />
-                    Home
+                    <span className="side-bar-option-text">Home</span>
                   </Option>
                 </Link>
 
@@ -68,7 +68,7 @@ class Sidebar extends Component {
                           : 'inactive-icon'
                       }
                     />
-                    Trending
+                    <span className="side-bar-option-text">Trending</span>
                   </Option>
                 </Link>
                 <Link to="/gaming" className="link-text">
@@ -78,7 +78,7 @@ class Sidebar extends Component {
                         activeTab === 'GAMING' ? 'active-icon' : 'inactive-icon'
                       }
                     />
-                    Gaming
+                    <span className="side-bar-option-text">Gaming</span>
                   </Option>
                 </Link>
                 <Link to="/saved-videos" className="link-text">
@@ -90,7 +90,7 @@ class Sidebar extends Component {
                           : 'inactive-icon'
                       }
                     />
-                    Saved videos
+                    <span className="side-bar-option-text">Saved videos</span>
                   </Option>
                 </Link>
               </ul>

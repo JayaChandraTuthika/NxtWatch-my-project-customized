@@ -19,6 +19,12 @@ export const LogoutButton = styled.button`
   text-align: center;
   margin: 0 15px;
   cursor: pointer;
+  @media screen and (max-width: 767px) {
+    font-size: 13px;
+    padding: 4px 9px;
+    font-weight: 600;
+    border: 1px solid ${props => (props.isDark ? 'white' : '#3b82f6')};
+  }
 `
 export const ModalContainer = styled.div`
   background-color: ${props => (props.isDark ? '#212121' : 'white')};
